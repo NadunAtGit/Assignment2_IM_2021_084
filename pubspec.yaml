@@ -1,0 +1,48 @@
+name: calcmate
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # For iOS style icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # For linting recommendations
+  flutter_lints: ^4.0.0
+
+  # For generating app icons
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  # Assets configuration
+  assets:
+    - assets/clear.png
+    - assets/1.png
+    - assets/icon.png
+
+  # Fonts configuration
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/montserrat.bold.ttf
+    - family: Creattion
+      fonts:
+        - asset: assets/Creattion Demo.otf
