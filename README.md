@@ -1,6 +1,11 @@
 # calcmate
 
 A new Flutter project.
+Design and created by nadun sooriyaarachchi
+
+**App Demo**
+to watch functonality of ios app: https://youtu.be/7STjM2yyvn0
+to watch functonality of android app: https://youtu.be/uOx7XM7dc0E
 
 ## Getting Started
 
